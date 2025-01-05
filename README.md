@@ -2,6 +2,8 @@
 
 PopClip extension for quick Youdao Dictionary (网易有道词典) lookups.
 
+![Screenshot](/screenshot.png)
+
 ## Requirements
 
 - [PopClip](https://pilotmoon.com/popclip/)
