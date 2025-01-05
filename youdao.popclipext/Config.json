@@ -1,0 +1,14 @@
+{
+  "name": "Youdao",
+  "icon": "square filled yd",
+  "identifier": "tech.paco.popclip.extension.youdao",
+  "description": "Search the selected text in Youdao.",
+  "popclipVersion": 3785,
+  "actions": [
+    {
+      "title": "Search In Youdao",
+      "before": "copy-selection",
+      "applescriptFile": "youdao.applescript"
+    }
+  ]
+}
