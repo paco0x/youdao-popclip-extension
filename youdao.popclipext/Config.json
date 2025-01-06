@@ -7,7 +7,6 @@
   "actions": [
     {
       "title": "Search In Youdao",
-      "before": "copy-selection",
       "applescriptFile": "youdao.applescript"
     }
   ]
