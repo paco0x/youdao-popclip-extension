@@ -1,0 +1,24 @@
+name: Release PopClip Extension
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Package Extension
+        run: |
+          cd ${{ github.workspace }}
+          zip -r youdao.popclipextz youdao.popclipext/
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: youdao.popclipextz
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
