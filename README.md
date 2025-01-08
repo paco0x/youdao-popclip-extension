@@ -2,7 +2,7 @@
 
 PopClip extension for quick Youdao Dictionary (网易有道词典) lookups.
 
-![Screenshot](/screenshot.png)
+![Screenshot](/screenshot.gif)
 
 ## Requirements
 
